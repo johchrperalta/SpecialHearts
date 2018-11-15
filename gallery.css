@@ -1,0 +1,569 @@
+body{
+		font-family: Courier New;
+		background-color: rgb(255,251,159);
+}
+/* MAIN HEADER SECTION*/
+
+#main-menu {
+	margin: 0px 0px 0px 80px;
+	padding: 0;
+	text-align: center;
+	list-style: none;
+	display: grid ;
+	grid-gap: 0px;
+	grid-template-columns: repeat(6,1fr);
+	
+}
+
+a {	
+		text-decoration: none;
+		font-family: Impact;
+		font-size: 25px;
+		padding-bottom: 0px;
+		width: 100px;
+		height: 100px;
+		-webkit-transition: 
+		width 1s, height 1s, - webkit-transform 1s;
+		/* Safari*/
+		transition: width 1s, height 1s, transform 1s;
+		background-repeat:no-repeat;
+}
+
+.logo {
+		background-image:url(../images/news.jpg);
+		background-size: 90px 90px;
+		font-size: 40px;
+		padding: 15px 10px;
+		display: inline-block;
+		color: red;
+		width: 100px;
+		height: 100px;
+		-webkit-transition: 
+		width 1s, height 1s, - webkit-transform 1s;
+		/* Safari*/
+		transition: width 1s, height 1s, transform 1s;
+		background-repeat:no-repeat;
+}
+
+.button1 {
+		background-image:url("../images/ICONS/gr.png");
+		background-size: 90px 90px;
+		background-repeat: no-repeat;
+		color: orange;
+		padding: 15px 10px;
+		display: inline-block;
+		width: 100px;
+		height: 100px;
+		-webkit-transition: 
+		width 1s, height 1s, - webkit-transform 1s;
+		/* Safari*/
+		transition: width 1s, height 1s, transform 1s;
+		background-repeat:no-repeat;
+		
+}
+
+.button1:hover {
+	background-image: url("../images/ICONS/grS.png");
+	background-size: 90px 90px;
+	color: rgb(254,219,137);
+	width: 210px;
+	background-repeat:no-repeat;
+}
+
+.button2 {
+		background-image:url("../images/ICONS/jc.png");
+		background-size: 90px 90px;
+		padding: 15px 10px;
+		display: inline-block;
+		color: orange;		
+		width: 100px;
+		height: 100px;
+		-webkit-transition: 
+		width 1s; /* Safari*/
+		transition:width 1s;
+		background-repeat:no-repeat;
+}
+
+.button2:hover {
+	background-image: url("../images/ICONS/jcS.png");
+	background-size: 90px 90px;
+	color: rgb(254,219,137);
+	width: 210px;
+	background-repeat:no-repeat;
+}
+
+.button3 {
+		background-image: url("../images/ICONS/isa.png");
+		background-size: 100px 90px;
+		background-repeat: no-repeat;
+		color: orange;
+		padding: 15px 0px;
+		display: inline-block;
+		width: 100px;
+		height: 100px;
+		-webkit-transition: 
+		width 1s, height 1s, - webkit-transform 1s;
+		/* Safari*/
+		transition: width 1s, height 1s, transform 1s;
+		background-repeat:no-repeat;
+		
+}
+
+.button3:hover {
+	background-image: url("../images/ICONS/isaS.png");
+	background-size: 90px 90px;
+	color: rgb(254,219,137);
+	width: 210px;
+	background-repeat:no-repeat;
+}
+
+.button4 {
+		background-image:url("../images/ICONS/ez.png");
+		background-size: 100px 90px;
+		background-repeat: no-repeat;
+		color: orange;
+		padding: 15px 0px;
+		display: inline-block;
+		width: 100px;
+		height: 100px;
+		-webkit-transition: 
+		width 1s, height 1s, - webkit-transform 1s;
+		/* Safari*/
+		transition: width 1s, height 1s, transform 1s;
+		background-repeat:no-repeat;
+}
+
+.button4:hover {
+	background-image: url("../images/ICONS/ezS.png");
+	background-size: 90px 90px;
+	color: rgb(254,219,137);
+	width: 210px;
+	background-repeat:no-repeat;
+}
+
+.button5 {
+		background-image:url("../images/ICONS/corl.png");
+		background-size: 100px 90px;
+		background-repeat: no-repeat;
+		color: orange;
+		padding: 15px 0px;
+		display: inline-block;
+		width: 100px;
+		height: 100px;
+		-webkit-transition: 
+		width 1s, height 1s, - webkit-transform 1s;
+		/* Safari*/
+		transition: width 1s, height 1s, transform 1s;
+		background-repeat:no-repeat;
+}
+
+.button5:hover {
+	background-image: url("../images/ICONS/corlS.png");
+	background-size: 90px 90px;
+	color: rgb(254,219,137);
+	width: 210px;
+	background-repeat:no-repeat;
+}
+
+/* GALLERY */
+.gallery {
+	font-family: Umbra Std;
+	padding: 1px;
+	font-size: 30px;
+	background-color: rgb(255, 251, 120);
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+/* DESCRIPTION */
+.description {
+	padding-top: 2px;
+	font-family: Corbel;
+	background-color: rgb(187, 130, 238);
+	border-style: outset;
+	margin: 5px 100px 20px 100px;
+	text-align: center;
+	font-size: 19px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/* IMAGES */
+.images > div{
+	border-style: outset;
+	padding: 150px 10px;
+	
+}
+.images {
+	margin: 0px 100px 50px 100px;
+	display: grid;
+	grid-gap: 20px;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+#box1 {
+	background-image: url("../images/gallery/1.jpg");
+	background-size: cover;
+	grid-column: 1/2;
+	grid-row: 1/2;
+}
+#box1:hover {
+	background-image: url("../images/gallery/1.jpg");
+	background-size: cover;
+	grid-column: 1/2;
+	grid-row: 1/2;
+	opacity: 0.9;
+}
+#box2 {
+	background-image: url("../images/gallery/b.jpeg");
+	background-size: cover;
+	grid-column: 2/3;
+	grid-row: 1/2;
+}#box2:hover {
+	background-image: url("../images/gallery/b.jpeg");
+	background-size: cover;
+	grid-column: 2/3;
+	grid-row: 1/2;
+	opacity: 0.9;
+}
+#box3 {
+	background-image: url("../images/gallery/c.jpg");
+	background-size: cover;
+	grid-column: 3/4;
+	grid-row: 1/2;
+}#box3:hover {
+	background-image: url("../images/gallery/c.jpg");
+	background-size: cover;
+	grid-column: 3/4;
+	grid-row: 1/2;
+	opacity: 0.9;
+}
+#box4 {
+	background-image: url("../images/gallery/isa3.jpg");
+	background-size: cover;
+	grid-column: 1/2;
+	grid-row: 2/3;
+}#box4:hover {
+	background-image: url("../images/gallery/isa3.jpg");
+	background-size: cover;
+	grid-column: 1/2;
+	grid-row: 2/3;
+	opacity: 0.9;
+}
+#box5 {
+	background-image: url("../images/gallery/7.jpg");
+	background-size: cover;
+	grid-column: 2/3;
+	grid-row: 2/3;
+}#box5:hover {
+	background-image: url("../images/gallery/7.jpg");
+	background-size: cover;
+	grid-column: 2/3;
+	grid-row: 2/3;
+	
+	opacity: 0.9;
+}
+#box6 {
+	background-image: url("../images/gallery/fish.jpg");
+	background-size: cover;
+	grid-column: 3/4;
+	grid-row: 2/3;
+}#box6:hover {
+	background-image: url("../images/gallery/fish.jpg");
+	background-size: cover;
+	grid-column: 3/4;
+	grid-row: 2/3;
+	opacity: 0.9;
+}
+#box7 {
+	background-image: url("../images/gallery/9.jpg");
+	background-size: cover;
+	grid-column: 1/2;
+	grid-row: 3/4;
+}#box7:hover {
+	background-image: url("../images/gallery/9.jpg");
+	background-size: cover;
+	grid-column: 1/2;
+	grid-row: 3/4;
+	opacity: 0.9;
+}
+#box8 {
+	background-image: url("../images/gallery/10.jpg");
+	background-size: cover;
+	grid-column: 2/3;
+	grid-row: 3/4;
+}#box8:hover {
+	background-image: url("../images/gallery/10.jpg");
+	background-size: cover;
+	grid-column: 2/3;
+	grid-row: 3/4;
+	opacity: 0.9;
+}
+#box9 {
+	background-image: url("../images/gallery/11.jpg");
+	background-size: cover;
+	grid-column: 3/4;
+	grid-row: 3/4;
+}#box9:hover {
+	background-image: url("../images/gallery/11.jpg");
+	background-size: cover;
+	grid-column: 3/4;
+	grid-row: 3/4;
+	opacity: 0.9;
+}
+#box10 {
+	background-image: url("../images/gallery/12.jpg");
+	background-size: cover;
+	grid-column: 1/2;
+	grid-row: 4/5;
+}#box10:hover {
+	background-image: url("../images/gallery/12.jpg");
+	background-size: cover;
+	grid-column: 1/2;
+	grid-row: 4/5;
+	opacity: 0.9;
+}
+#box11 {
+	background-image: url("../images/gallery/cute.jpg");
+	background-size: cover;
+	grid-column: 2/3;
+	grid-row: 4/5;
+}#box11:hover {
+	background-image: url("../images/gallery/cute.jpg");
+	background-size: cover;
+	grid-column: 2/3;
+	grid-row: 4/5;
+	opacity: 0.9;
+}
+#box12 {
+	background-image: url("../images/gallery/corl3.jpg");
+	background-size: cover;
+	grid-column: 3/4;
+	grid-row: 4/5;
+}#box12:hover {
+	background-image: url("../images/gallery/corl3.jpg");
+	background-size: cover;
+	grid-column: 3/4;
+	grid-row: 4/5;
+	opacity: 0.9;
+}
+#box13 {
+	background-image: url("../images/gallery/19.jpg");
+	background-size: cover;
+	grid-column: 1/2;
+	grid-row: 5/6;
+}#box13:hover {
+	background-image: url("../images/gallery/19.jpg");
+	background-size: cover;
+	grid-column: 1/2;
+	grid-row: 5/6;
+	opacity: 0.9;
+}
+#box14 {
+	background-image: url("../images/gallery/20.jpg");
+	background-size: cover;
+	grid-column: 2/3;
+	grid-row: 5/6;
+}#box14:hover {
+	background-image: url("../images/gallery/20.jpg");
+	background-size: cover;
+	grid-column: 2/3;
+	grid-row: 5/6;
+	opacity: 0.9;
+}
+#box15 {
+	background-image: url("../images/gallery/corl1.jpg");
+	background-size: cover;
+	grid-column: 3/4;
+	grid-row: 5/6;
+}#box15:hover {
+	background-image: url("../images/gallery/corl1.jpg");
+	background-size: cover;
+	grid-column: 3/4;
+	grid-row: 5/6;
+	opacity: 0.9;
+}
+#box16 {
+	background-image: url("../images/gallery/ezra2.jpg");
+	background-size: cover;
+	grid-column: 1/2;
+	grid-row: 6/7;
+}#box16:hover {
+	background-image: url("../images/gallery/ezra2.jpg");
+	background-size: cover;
+	grid-column: 1/2;
+	grid-row: 6/7;
+	opacity: 0.9;
+}
+#box17 {
+	background-image: url("../images/gallery/greg3.jpg");
+	background-size: cover;
+	grid-column: 2/3;
+	grid-row: 6/7;
+}#box17:hover {
+	background-image: url("../images/gallery/greg3.jpg");
+	background-size: cover;
+	grid-column: 2/3;
+	grid-row: 6/7;
+	opacity: 0.9;
+}
+#box18 {
+	background-image: url("../images/gallery/isa2.jpg");
+	background-size: cover;
+	grid-column: 3/4;
+	grid-row: 6/7;
+}#box18:hover {
+	background-image: url("../images/gallery/isa2.jpg");
+	background-size: cover;
+	grid-column: 3/4;
+	grid-row: 6/7;
+	opacity: 0.9;
+}
+#box19 {
+	background-image: url("../images/gallery/ezra3.jpg");
+	background-size: cover;
+	grid-column: 1/2;
+	grid-row: 7/8;
+}#box19:hover {
+	background-image: url("../images/gallery/ezra3.jpg");
+	background-size: cover;
+	grid-column: 1/2;
+	grid-row: 7/8;
+	opacity: 0.9;
+}
+#box20 {
+	background-image: url("../images/gallery/greg2.jpg");
+	background-size: cover;
+	grid-column: 2/3;
+	grid-row: 7/8;
+}#box20:hover {
+	background-image: url("../images/gallery/greg2.jpg");
+	background-size: cover;
+	grid-column: 2/3;
+	grid-row: 7/8;
+	opacity: 0.9;
+}
+#box21 {
+	background-image: url("../images/gallery/isa1.jpg");
+	background-size: cover;
+	grid-column: 3/4;
+	grid-row: 7/8;
+}#box21:hover {
+	background-image: url("../images/gallery/isa1.jpg");
+	background-size: cover;
+	grid-column: 3/4;
+	grid-row: 7/8;
+	opacity: 0.9;
+}
+#box22 {
+	background-image: url("../images/gallery/Bob Ross Inspired.jpg");
+	background-size: cover;
+	grid-column: 1/2;
+	grid-row: 8/9;
+}#box22:hover {
+	background-image: url("../images/gallery/Bob Ross Inspired.jpg");
+	background-size: cover;
+	grid-column: 1/2;
+	grid-row: 8/9;
+	opacity: 0.9;
+}
+#box23 {
+	background-image: url("../images/gallery/art.jpg");
+	background-size: cover;
+	grid-column: 2/3;
+	grid-row: 8/9;
+}#box23:hover {
+	background-image: url("../images/gallery/art.jpg");
+	background-size: cover;
+	grid-column: 2/3;
+	grid-row: 8/9;
+		opacity: 0.9;
+}
+#box24 {
+	background-image: url("../images/gallery/jc3.jpg");
+	background-size: cover;
+	grid-column: 3/4;
+	grid-row: 8/9;
+}#box24:hover {
+	background-image: url("../images/gallery/jc3.jpg");
+	background-size: cover;
+	grid-column: 3/4;
+	grid-row: 8/9;
+	opacity: 0.9;
+}
+
+/* FOOTER SECTION */
+
+
+.footer {
+	font-family: Georgia;
+	color:white;
+	padding:20px 100px 20px 100px;
+	box-shadow: 0 0 5px #9f8260;
+	background-color: rgb(20,0,0);
+	margin-bottom: 0px; 
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}	
+.footer-left {
+	text-align: left;
+	padding: 10px;
+	display: grid;
+	grid-template-columns: 1fr, 1fr;
+}
+.footer-right {
+	padding: 15px;
+	display: grid;
+	grid-template-columns: 1fr, 1fr;
+	text-align:right;
+}
+#social-media {
+
+	margin: 0px;
+	padding: 0px;
+}
+
+#social-media >a{
+		font-family: Impact;
+	width:10px;
+	height: 10px;
+}
+.facebook {
+	margin: 0 0 0 390px; 
+	background:url(../images/facebook2.jpg);
+	background-repeat: no-repeat;
+	background-size: 22px 22px;
+	text-decoration: none;
+	display: inline-block;
+	background-position:right;
+	font-size:15px;
+}
+
+.twitter {
+	margin: 0 0 0 390px; 
+	background-image: url(../images/twitter1.jpg);
+	background-repeat: no-repeat;
+	background-size: 22px 22px;
+	text-decoration: none;
+	display: inline-block;
+	background-position:right;
+	font-size:15px;
+}
+.instagram {
+	margin: 0 0 0 390px; 
+	background-image: url(../images/instagram1.jpg);
+	background-repeat: no-repeat;
+	background-size: 22px 22px;
+	text-decoration: none;
+	display: inline-block;
+	background-position:right;
+	font-size:15px;
+}
+
+.extra-footer {
+	font-family: Georgia;
+	padding: 20px;
+	background:black;
+	text-align: center;
+}
+
